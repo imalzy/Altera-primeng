@@ -1,0 +1,16 @@
+.header {
+  height: 513px;
+  background: #37517e;
+
+
+  ::ng-deep{
+    &#custom-toolbar {
+      .p-toolbar {
+        // width: 80% !important;
+        background: transparent !important;
+        border: none !important;
+        // margin: 0 auto;
+      }
+    }
+  }
+}
